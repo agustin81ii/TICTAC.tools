@@ -24,11 +24,12 @@ todo lo que se toca queda respaldado y se puede restaurar con un clic.
 
 ## Lo nuevo en 1.3.3.7
 
-- **Iconos de inventario estilo Minecraft**: 190 items mapeados (armaduras, armas,
+- **Iconos de inventario estilo Minecraft**: 191 items mapeados (armaduras, armas,
   munición, recursos, consumibles y accesorios), con preset propio editable.
 - Escudos con recolor por tier (madera, metal, riot, tek).
 - Recursos como bloques isométricos (madera, piedra, obsidiana, thatch).
 - Sopas y pociones con el diseño de Minecraft recoloreado.
+- C4: el detonador dibujado a 64 px desde el modelo de ARK y la carga con la TNT de Minecraft.
 - **Aplicar / Restaurar** verificado sobre más de 290 archivos, 0 errores.
 
 ## Cómo funciona el cambio de iconos
