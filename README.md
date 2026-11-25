@@ -2,8 +2,7 @@
 
 Suite de escritorio para **ARK: Survival Evolved** que reúne en una sola app las
 herramientas que normalmente andan sueltas en diez carpetas distintas: HUD,
-macros, crosshair, ajustes de INI, guías de dinos y jefes, crianza, Sky Changer y
-cambio de iconos del inventario.
+macros, crosshair, ajustes de INI, guías de dinos y jefes, Sky Changer y cambio de iconos del inventario.
 
 Todo corre en el cliente. No hay servidor modificado ni nada que dependa de un
 servidor: lo único que cambia son archivos locales de tu instalación de ARK, y
@@ -18,26 +17,26 @@ todo lo que se toca queda respaldado y se puede restaurar con un clic.
 | Config | INI builder, INI changer, launch options, file modifier, file converter |
 | Datos | Base de datos de dinos, niveles, precios, bosses, cuevas y dificultad |
 | Juego | CompactArk, desync, crafting scripts, line list, map mods |
-| Criatura | Crianza, guía de niveles |
+| Criatura | Guía de niveles |
 | Visual | Sky Changer, Custom Lab, paintings, oCBPs, pixel |
 | Iconos | Cambio de iconos del inventario a estilo Minecraft (190 items) |
 
-## Lo nuevo en 1.3.3.7
+## Lo nuevo en 1.3.4
 
-- **Iconos de inventario estilo Minecraft**: 191 items mapeados (armaduras, armas,
-  munición, recursos, consumibles y accesorios), con preset propio editable.
-- Escudos con recolor por tier (madera, metal, riot, tek).
-- Recursos como bloques isométricos (madera, piedra, obsidiana, thatch).
-- Sopas y pociones con el diseño de Minecraft recoloreado.
-- C4: el detonador dibujado a 64 px desde el modelo de ARK y la carga con la TNT de Minecraft.
-- **Aplicar / Restaurar** verificado sobre más de 290 archivos, 0 errores.
+- **Versión de usuario**: se quitó el bot de crianza. Esta build queda con las
+  herramientas de escritorio y el cambio de iconos, sin automatización del juego.
+- **Iconos nuevos**: telaraña de Minecraft para el proyectil de red, mechero para
+  el detonador de C4 y espada de madera para el club.
+- El preset ahora tiene 192 ítems.
+- Se quitó la dependencia de OCR: el instalador ya no arrastra el motor de texto.
 
-## Cómo funciona el cambio de iconos
+### Íconos
 
-Un item de ARK muestra dos texturas distintas y hay que parchear las dos:
+Preset `minecraft` con 192 ítems: armaduras, armas, munición, recursos,
+consumibles y accesorios. Todo se aplica y se revierte desde la app, con respaldo
+automático de cada textura.
 
-| Textura | Dónde se ve |
-|---|---|
+---|---|
 | `ItemIcon` | tooltip y silueta del slot |
 | `Albedo Map` del `ItemIconMaterialParent` | grilla del inventario |
 

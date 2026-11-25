@@ -1,6 +1,6 @@
 # Cómo cambiar los iconos a tu gusto
 
-Guía para armar tu propio set de iconos en TicTac.tools 1.3.3.7.
+Guía para armar tu propio set de iconos en TicTac.tools 1.3.4.
 
 ## 1. Dónde vive el preset
 
